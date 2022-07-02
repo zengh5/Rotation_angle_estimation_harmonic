@@ -139,7 +139,7 @@ end
 
 
 function [fx,fy, EstimatedAngle] = FindPeak_harmo(P,Q,N,X,Y,JPEG, N_har)
-    N_candi = 5;    % It doesn't matter what you set N_candi = 5
+    N_candi = 5;    % It doesn't matter what you set N_candi = 5, 10 or something else
     EstimatedAngle = 0;
     [magnitude,ind]=sort(Q(:),'descend');
     if(JPEG==0)
