@@ -1,6 +1,6 @@
 % -------------------------------------------------------------------------
-%   Written June 2022 by H.Zeng and K.Yu
-%   Copyright 2022 by H.Zeng and K.Yu
+%   Written by Hui Zeng and Kun Yu
+%   Copyright 2022 by Hui Zeng and Kun Yu
 % -------------------------------------------------------------------------
 % Permission to use, copy, modify, and distribute this software for
 % educational, research and non-profit purposes, without fee, and without a
@@ -41,7 +41,7 @@ P = fftshift(P);
 
 % 3. Core routine---------------
 % nearest neighbor around the arcs in the sampling grid
-Neighbor = 3;
+Neighbor = 3;    % Recommendation: using smaller neighborhood, e.g., Neighbor = 2, for small images, e.g., 64 by 64 images.  
 angle = ArcEstimate_1_zh(P,JPEG,Neighbor, N_har);
 end
 
