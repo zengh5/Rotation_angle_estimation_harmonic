@@ -12,5 +12,11 @@ D. Vázquez-Padín, C. Mosquera, and F. Pérez-González, “Two-dimensional sta
 C. Chen, J. Ni and Z. Shen, “Effective estimation of image rotation angle using spectral method,” IEEE Signal Processing Letters, 21(7): 890–894, 2014. (https://github.com/ChenglongChen/image-rotation-angle-estimation)  
 S. Dai, Y. Zhang, W. Song, et al. “Rotation angle estimation of JPEG compressed image by cyclic spectrum analysis,” Electronics, 2019, 8(12): 1431.
 
+In the supplementary file 'supp.pdf', we provide more detailed results:
+
+- Rotation angle estimation accuracy comparison on uncompresed, JPEG compressed, scaled-then-rotated images;
+- Estimation accuracy for images with different sizes; 
+- Ablation study of the parameter N_har. 
+
 ## Usage
 Please run Onesample_harmonics.m to see the difference between the proposed method and previous ones.  
