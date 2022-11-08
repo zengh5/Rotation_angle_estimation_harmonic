@@ -3,7 +3,7 @@ We propose aggregating a candidate peak and its harmonics as a more robust metri
 
 ![image](https://github.com/zengh5/Rotation_angle_estimation_harmonic/blob/main/Figs/Aggregating_harmonics.png)
 
-Compared with the state of the arts, the accuracy of image rotation angle estimation can be significantly improved.
+Compared with the state of the arts, the accuracy of image rotation angle estimation can be improved consistently.
 
 ![image](https://github.com/zengh5/Rotation_angle_estimation_harmonic/blob/main/Figs/Overall_comparison.png)
 
@@ -14,7 +14,7 @@ S. Dai, Y. Zhang, W. Song, et al. “Rotation angle estimation of JPEG compresse
 
 In the supplementary file 'supp.pdf', we provide more detailed results:
 
-- Rotation angle estimation accuracy comparison on uncompresed, JPEG compressed, scaled-then-rotated images;
+- Rotation angle estimation accuracy comparison on uncompresed, JPEG compressed, and scaled-then-rotated images;
 - Estimation accuracy for images with different sizes; 
 - Ablation study of the parameter N_har. 
 
