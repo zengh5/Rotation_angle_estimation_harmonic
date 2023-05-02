@@ -1,5 +1,5 @@
 # Rotation_angle_estimation_harmonic  
-We propose aggregating a candidate peak and its harmonics as a more robust metric in determining the rotation-dependent peak. 
+We propose aggregating a candidate peak and its harmonics as a more robust metric in determining the rotation-dependent peak. This work will be presented in the **Session : Multimedia Forensics, 6/8/2023 8:15:00 (EEST), Greece**, IEEE ICASSP 2023. You are very welcomed to discuss with us face to face. 
 
 ![image](https://github.com/zengh5/Rotation_angle_estimation_harmonic/blob/main/Figs/Aggregating_harmonics.png)
 
